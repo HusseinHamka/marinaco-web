@@ -6,7 +6,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "install:apps": "npm install --prefix apps/ugarit && npm install --prefix apps/almarsa",
+    "install:apps": "npm install --prefix apps/ugarit --include=dev && npm install --prefix apps/almarsa --include=dev",
     "build": "npm run build --prefix apps/ugarit && npm run build --prefix apps/almarsa",
     "build:render": "npm run install:apps && npm run build",
     "start": "node gateway.mjs",
