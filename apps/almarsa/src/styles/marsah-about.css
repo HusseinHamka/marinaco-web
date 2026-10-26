@@ -1,0 +1,20 @@
+/* ALMARSA Our Story — V19 */
+.marsah-menu .marsah-page-content:has(.marsah-story){padding:0!important;min-height:0!important;background:#dff4f3!important}
+.marsah-story{background:linear-gradient(180deg,#dff4f3 0%,#cceceb 100%);padding:42px 20px 70px;color:#063c48}
+.marsah-story-inner{width:min(910px,100%);margin:0 auto}
+.marsah-story-header{text-align:center;margin:0 auto 28px}
+.marsah-story-eyebrow{font-size:10px;font-weight:800;letter-spacing:.22em;color:#0c7b91;margin:0 0 12px}
+.marsah-story-header h1{font-family:Arial,sans-serif;font-size:clamp(42px,7vw,76px);font-weight:900;letter-spacing:-.05em;margin:0;color:#063c48;line-height:1.05}
+.marsah-story-tagline{font-family:Georgia,serif;font-size:clamp(17px,2.7vw,24px);font-style:italic;color:#12849a;margin:13px 0 0}
+.marsah-story-photo{width:100%;height:clamp(280px,48vw,495px);background:linear-gradient(130deg,#167f95,#073e58);border-radius:24px;overflow:hidden;box-shadow:0 15px 32px rgba(7,63,78,.13)}
+.marsah-story-photo img{width:100%;height:100%;object-fit:cover;object-position:center 55%;display:block}
+.marsah-story-photo img[hidden]{display:none}
+.marsah-story-text{background:rgba(255,253,248,.86);border-radius:24px;padding:clamp(24px,5vw,54px);margin:22px auto 0;max-width:790px;box-shadow:0 8px 25px rgba(7,63,78,.05)}
+.marsah-story-text h2{font-family:Georgia,serif;font-weight:700;color:#073e4e;font-size:clamp(23px,4vw,32px);line-height:1.27;margin:0 0 24px}
+.marsah-story-text p{font-family:Arial,sans-serif;font-weight:400;font-size:clamp(15px,2vw,17px);line-height:1.85;color:#345860;margin:0 0 20px}
+.marsah-story-signature{border-top:1px solid #c6dadd;margin-top:35px;padding-top:25px;display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
+.marsah-story-signature img{width:105px;height:auto}
+.marsah-story-signature strong{font:700 17px/1.5 Georgia,serif;color:#073e4e}
+.marsah-story-signature span{font:600 12px/1.5 Arial,sans-serif;color:#0b8195;letter-spacing:.03em}
+.marsah-story[lang="ar"] .marsah-story-text{text-align:right;direction:rtl}
+@media(max-width:650px){.marsah-story{padding:28px 14px 44px}.marsah-story-header{margin-bottom:21px}.marsah-story-photo{border-radius:18px;height:320px}.marsah-story-text{margin-top:14px;border-radius:19px;padding:25px 20px}.marsah-story-text p{line-height:1.8;margin-bottom:15px}}

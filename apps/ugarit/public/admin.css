@@ -1,0 +1,33 @@
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,sans-serif;color:#352922;background:#f6f2ed;font-size:14px}*{box-sizing:border-box}body{margin:0}button,input,textarea,select{font:inherit}button{cursor:pointer}button:disabled{opacity:.55;cursor:wait}a{color:inherit}#dashboard{display:flex;min-height:100vh}#dashboard[hidden],#login[hidden]{display:none}.sidebar{background:#352820;color:#f3eae0;width:234px;min-width:234px;padding:33px 18px;display:flex;flex-direction:column;gap:45px}.logo{font:600 25px Georgia,serif;letter-spacing:.17em}.logo small{display:block;font:10px system-ui;letter-spacing:.25em;margin-top:8px;opacity:.55}.sidebar nav{display:grid;gap:7px}.sidebar nav button,.sidebar footer button{width:100%;text-align:left;border:0;background:transparent;color:#d6c8be;padding:14px 16px;border-radius:10px}.sidebar nav button.active,.sidebar nav button:hover{background:#674b3c;color:#fff}.sidebar footer{margin-top:auto;display:grid;gap:14px}.sidebar footer a{padding:12px 16px;text-decoration:none}.sidebar footer .quiet{opacity:.7}.main{flex:1;min-width:0;padding:32px clamp(18px,4vw,60px)}.top{display:flex;justify-content:space-between;border-bottom:1px solid #e4d9cf;padding-bottom:24px;margin-bottom:35px}.eyebrow{font-size:11px;letter-spacing:.19em;font-weight:700;color:#9c7965}.session{color:#66836b;font-size:12px}.heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:25px;flex-wrap:wrap}h1{font:normal 42px Georgia,serif;margin:8px 0}h2{font:normal 23px Georgia,serif;margin:0 0 18px}p{color:#827267;line-height:1.55}.panel,.stat,.modal-content{background:#fffdf9;border:1px solid #eae0d6;border-radius:16px;padding:24px;box-shadow:0 7px 28px #3c2b2110}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:16px;margin-bottom:25px}.stat strong{display:block;font:normal 36px Georgia,serif;margin:8px 0}.stat span{font-size:12px;letter-spacing:.05em;color:#8c7969}.toolbar{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:18px}.toolbar input{flex:1;min-width:190px}.toolbar select{min-width:140px}input,textarea,select{width:100%;border:1px solid #dacdc1;border-radius:9px;background:#fff;padding:12px;color:#352922}textarea{min-height:110px;resize:vertical}label{display:grid;gap:7px;color:#655044;font-size:12px;font-weight:600;margin-bottom:15px}button.primary,button:not(.quiet).action,form button[type=submit],#login-form button{border:0;border-radius:9px;background:#654737;color:#fff;padding:12px 18px}button.secondary{border:1px solid #dacdc1;background:white;color:#604739;border-radius:9px;padding:10px 13px}.danger{color:#a04132!important}.table-wrap{overflow:auto}.data-table{border-collapse:collapse;width:100%;min-width:650px}.data-table th{text-align:left;font-size:11px;letter-spacing:.12em;color:#9a8578;border-bottom:1px solid #e9ded5;padding:14px 10px}.data-table td{border-bottom:1px solid #f0e9e3;padding:15px 10px;vertical-align:middle}.data-table td.actions{white-space:nowrap}.data-table button{margin:2px;border:1px solid #e8ded5;background:#fff;border-radius:7px;padding:7px 11px;color:#765444}.muted{color:#948477;font-size:12px}.stars{color:#ba8a47;letter-spacing:2px;white-space:nowrap}.chip{border-radius:30px;padding:5px 10px;background:#f1e8e0;color:#79543f;text-transform:capitalize;font-size:11px}.chip.new{background:#f6e1cf;color:#9a532c}.chip.resolved{background:#dfede1;color:#42744b}.msg{white-space:pre-wrap;max-width:320px;overflow-wrap:anywhere}.modal{position:fixed;inset:0;display:grid;place-items:center;background:#1e140f99;padding:20px;z-index:5}.modal-content{width:min(550px,100%);max-height:90vh;overflow:auto}.modal-actions{display:flex;justify-content:flex-end;gap:10px}.login{max-width:430px;margin:10vh auto;padding:34px}.login .logo{margin-bottom:35px}.error{color:#a04132}#message:not(:empty){padding:12px 16px;margin-bottom:20px;background:#e7f0e5;color:#3d6a40;border-radius:9px}.feedback-details{max-width:550px;line-height:1.65;overflow-wrap:anywhere}.feedback-details p{white-space:pre-wrap;color:#392d27}.hint{font-size:12px}.split{display:grid;grid-template-columns:1fr 1fr;gap:13px}@media(max-width:750px){#dashboard{display:block}.sidebar{width:100%;min-width:0;padding:18px;gap:16px}.sidebar nav{display:flex;overflow-x:auto}.sidebar nav button{white-space:nowrap;width:auto}.sidebar footer{display:none}.main{padding:20px}.top{margin-bottom:20px}h1{font-size:33px}.split{grid-template-columns:1fr}} 
+
+/* Keep Ugarit Admin sidebar visible while scrolling */
+@media (min-width: 751px) {
+  #dashboard {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    max-height: 100vh;
+    align-self: flex-start;
+    flex-shrink: 0;
+    overflow-y: auto;
+    z-index: 20;
+  }
+
+  .main {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .sidebar {
+    position: relative;
+    height: auto;
+    max-height: none;
+  }
+}

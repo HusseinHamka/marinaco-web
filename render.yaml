@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: marinaco-web
+    runtime: node
+    plan: starter
+    buildCommand: npm run build:render
+    startCommand: node gateway.mjs
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: UGARIT_PORT
+        value: "4177"
+      - key: ALMARSA_PORT
+        value: "3000"

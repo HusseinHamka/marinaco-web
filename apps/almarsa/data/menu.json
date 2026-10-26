@@ -1,0 +1,601 @@
+[
+  {
+    "id": "soup",
+    "name": "Soup",
+    "icon": "♨",
+    "subtitle": "Warm flavors from our kitchen",
+    "dishes": [
+      {
+        "name": "Seafood Soup",
+        "price": 11.6,
+        "description": "Shrimp, Calamari, Crab, Fish fillet, Mushroom, bamboo, Dark soya",
+        "image": "/menu-images/seafood-soup.webp",
+        "id": "soup-item-1",
+        "order": 0,
+        "available": true
+      },
+      {
+        "name": "Hot & Sour Soup",
+        "price": 9.3,
+        "description": "Mushroom, bamboo, soya sauce",
+        "image": "/menu-images/hot-sour-soup-compressed.webp",
+        "id": "soup-item-2",
+        "order": 1,
+        "available": true
+      }
+    ],
+    "order": 0,
+    "cover": ""
+  },
+  {
+    "id": "salad",
+    "name": "Salad",
+    "icon": "❋",
+    "subtitle": "Fresh Mediterranean selections",
+    "dishes": [
+      {
+        "name": "Seafood Salad",
+        "price": 19,
+        "description": "Shrimp, Carrot, Lettuce, Cucumber, Cabbage, Lemon juice, Sesame Oil, sesame, Crab, Calamar",
+        "image": "/menu-images/seafood-salad.webp",
+        "id": "salad-item-1",
+        "order": 0,
+        "available": true
+      },
+      {
+        "name": "Chicken Caesar Salad",
+        "price": 13.5,
+        "description": "Iceberg, cherry tomato, parmesan cheese, caesar dressing, chicken",
+        "image": "/menu-images/chicken-caesar-salad.webp",
+        "id": "salad-item-2",
+        "order": 1,
+        "available": true
+      },
+      {
+        "name": "Chicken Mango Salad",
+        "price": 21.5,
+        "description": "Mix green salad, cucumber, cherry tomato, mango, turkey baby corn, caramelized nuts, orange mayo sauce",
+        "image": "/menu-images/chicken-mango-salad.webp",
+        "id": "salad-item-3",
+        "order": 2,
+        "available": true
+      },
+      {
+        "name": "Exotic Salad",
+        "price": 17.9,
+        "description": "Baby rocca, mix green, mango, avocado, strawberry, kiwi, crab sticks, shrimps, fruity dressing",
+        "image": "/menu-images/exotic-salad-compressed.webp",
+        "id": "salad-item-4",
+        "order": 3,
+        "available": true
+      },
+      {
+        "name": "Crab Avocado Salad",
+        "price": 17,
+        "description": "",
+        "image": "/menu-images/crab-avocado-salad.webp",
+        "id": "salad-item-5",
+        "order": 4,
+        "available": true
+      },
+      {
+        "name": "Garden Salad",
+        "price": 11,
+        "description": "",
+        "image": "/menu-images/garden-salad.webp",
+        "id": "salad-item-6",
+        "order": 5,
+        "available": true
+      },
+      {
+        "name": "Avocado And Shrimps Salad",
+        "price": 14.6,
+        "description": "",
+        "image": "/menu-images/avocado-shrimps-salad.webp",
+        "id": "salad-item-7",
+        "order": 6,
+        "available": true
+      },
+      {
+        "name": "Rocca With Beetroot Salad",
+        "price": 6.8,
+        "description": "",
+        "image": "/menu-images/rocca-betroot-salad.webp",
+        "id": "salad-item-8",
+        "order": 7,
+        "available": true
+      },
+      {
+        "name": "Tabouli",
+        "price": 6.8,
+        "description": "",
+        "image": "/menu-images/tabouleh.webp",
+        "id": "salad-item-9",
+        "order": 8,
+        "available": true
+      },
+      {
+        "name": "Fatoush",
+        "price": 6.8,
+        "description": "",
+        "image": "/menu-images/fatoush.webp",
+        "id": "salad-item-10",
+        "order": 9,
+        "available": true
+      }
+    ],
+    "order": 1,
+    "cover": ""
+  },
+  {
+    "id": "cold-appetizer",
+    "name": "Cold Appetizer",
+    "icon": "◇",
+    "subtitle": "Mediterranean classics to begin",
+    "dishes": [
+      {
+        "name": "Hummus With Avoca And Shrimps",
+        "price": 12.2,
+        "description": "",
+        "image": "/menu-images/hummus-avocado-shrimps.webp",
+        "id": "cold-appetizer-item-1",
+        "order": 0,
+        "available": true
+      },
+      {
+        "name": "Hummus",
+        "price": 5.6,
+        "description": "",
+        "image": "/menu-images/hummus.webp",
+        "id": "cold-appetizer-item-2",
+        "order": 1,
+        "available": true
+      },
+      {
+        "name": "Moutabbal",
+        "price": 5.64,
+        "description": "",
+        "image": "/menu-images/moutabbal.webp",
+        "id": "cold-appetizer-item-3",
+        "order": 2,
+        "available": true
+      },
+      {
+        "name": "Hummus With Meat",
+        "price": 12.2,
+        "description": "Hummus with tahini served with meat and nuts",
+        "image": "/menu-images/hummus-meat.webp",
+        "id": "cold-appetizer-item-4",
+        "order": 3,
+        "available": true
+      },
+      {
+        "name": "Raw Fish",
+        "price": 24.1,
+        "description": "",
+        "image": "/menu-images/raw-fish.webp",
+        "id": "cold-appetizer-item-5",
+        "order": 4,
+        "available": true
+      },
+      {
+        "name": "Hummus Almarsa",
+        "price": 12.2,
+        "description": "Traditional hummus with nuts, almonds and chili oil.",
+        "image": "/menu-images/hummus-al-marsa.webp",
+        "id": "cold-appetizer-item-6",
+        "order": 5,
+        "available": true
+      },
+      {
+        "name": "Vine Leaves",
+        "price": 7.4,
+        "description": "",
+        "image": "/menu-images/vine-leaves.webp",
+        "id": "cold-appetizer-item-7",
+        "order": 6,
+        "available": true
+      },
+      {
+        "name": "Lebanese Frakeh",
+        "price": 11,
+        "description": "",
+        "image": "/menu-images/lebanese-frakeh.webp",
+        "id": "cold-appetizer-item-8",
+        "order": 7,
+        "available": true
+      },
+      {
+        "name": "Shawarma Hummus",
+        "price": 12.2,
+        "description": "Shawarma meat, hummus",
+        "image": "/menu-images/shawarma-hummus.webp",
+        "id": "cold-appetizer-item-9",
+        "order": 8,
+        "available": true
+      }
+    ],
+    "order": 2,
+    "cover": ""
+  },
+  {
+    "id": "hot-appetizer",
+    "name": "Hot Appetizer",
+    "icon": "♨",
+    "subtitle": "Hot plates made for sharing",
+    "dishes": [
+      {
+        "name": "Fish Beiruti",
+        "price": 11,
+        "description": "Crispy fried fish fillet with spicy sauce, colorful bell peppers & onions, topped with nuts",
+        "image": "/menu-images/fish-beiruti.webp",
+        "id": "hot-appetizer-item-1",
+        "order": 0,
+        "available": true
+      },
+      {
+        "name": "Tajin Traboulseye",
+        "price": 11,
+        "description": "Crispy fish fillet in tahini & onion sauce, topped with nuts",
+        "image": "/menu-images/tajin-traboulseye.webp",
+        "id": "hot-appetizer-item-2",
+        "order": 1,
+        "available": true
+      },
+      {
+        "name": "Dynamite Shrimp",
+        "price": 15.2,
+        "description": "",
+        "image": "/menu-images/dynamite-shrimp-compressed.webp",
+        "id": "hot-appetizer-item-3",
+        "order": 2,
+        "available": true
+      },
+      {
+        "name": "Shrimp Shop",
+        "price": 17,
+        "description": "Shrimp pane, soya spicy coriander sauce",
+        "image": "/menu-images/shrimp-shop-compressed.webp",
+        "id": "hot-appetizer-item-4",
+        "order": 3,
+        "available": true
+      },
+      {
+        "name": "Shrimp Fatte",
+        "price": 14,
+        "description": "",
+        "image": "/menu-images/shrimp-fatte.webp",
+        "id": "hot-appetizer-item-5",
+        "order": 4,
+        "available": true
+      },
+      {
+        "name": "Fatte Lahme",
+        "price": 13.5,
+        "description": "",
+        "image": "/menu-images/fatte-lahme.webp",
+        "id": "hot-appetizer-item-6",
+        "order": 5,
+        "available": true
+      },
+      {
+        "name": "Cheese Rolls",
+        "price": 7.7,
+        "description": "",
+        "image": "/menu-images/cheese-rolls.webp",
+        "id": "hot-appetizer-item-7",
+        "order": 6,
+        "available": true
+      },
+      {
+        "name": "Vegetable Roll",
+        "price": 8.2,
+        "description": "",
+        "image": "/menu-images/vegetable-roll.webp",
+        "id": "hot-appetizer-item-8",
+        "order": 7,
+        "available": true
+      },
+      {
+        "name": "Shrimp Rolls",
+        "price": 11.1,
+        "description": "",
+        "image": "/menu-images/shrimp-rolls.webp",
+        "id": "hot-appetizer-item-9",
+        "order": 8,
+        "available": true
+      },
+      {
+        "name": "Fried Kebbe",
+        "price": 11,
+        "description": "",
+        "image": "/menu-images/fried-kebbe.webp",
+        "id": "hot-appetizer-item-10",
+        "order": 9,
+        "available": true
+      },
+      {
+        "name": "Coriander Potato",
+        "price": 5.6,
+        "description": "",
+        "image": "/menu-images/coriander-potato.webp",
+        "id": "hot-appetizer-item-11",
+        "order": 10,
+        "available": true
+      },
+      {
+        "name": "Fries",
+        "price": 6.2,
+        "description": "",
+        "image": "/menu-images/fries.webp",
+        "id": "hot-appetizer-item-12",
+        "order": 11,
+        "available": true
+      },
+      {
+        "name": "Makanek",
+        "price": 9.4,
+        "description": "",
+        "image": "/menu-images/makanek.webp",
+        "id": "hot-appetizer-item-13",
+        "order": 12,
+        "available": true
+      },
+      {
+        "name": "Soujuk With Vegetables",
+        "price": 11.1,
+        "description": "",
+        "image": "/menu-images/soujok-with-vegetables.webp",
+        "id": "hot-appetizer-item-14",
+        "order": 13,
+        "available": true
+      },
+      {
+        "name": "Ras Asfoor",
+        "price": 12.6,
+        "description": "",
+        "image": "/menu-images/ras-asfoor.webp",
+        "id": "hot-appetizer-item-15",
+        "order": 14,
+        "available": true
+      },
+      {
+        "name": "Octopus Provencal",
+        "price": 14.5,
+        "description": "",
+        "image": "/menu-images/octopus-provencal.webp",
+        "id": "hot-appetizer-item-16",
+        "order": 15,
+        "available": true
+      },
+      {
+        "name": "Fried Sardine Bizri",
+        "price": 9,
+        "description": "",
+        "image": "/menu-images/fried-sardine-bizri.webp",
+        "id": "hot-appetizer-item-17",
+        "order": 16,
+        "available": true
+      },
+      {
+        "name": "Shrimps Provencal",
+        "price": 11,
+        "description": "",
+        "image": "/menu-images/shrimps-provencal.webp",
+        "id": "hot-appetizer-item-18",
+        "order": 17,
+        "available": true
+      },
+      {
+        "name": "Calamari Provencal",
+        "price": 11.2,
+        "description": "",
+        "image": "/menu-images/calamari-provencal.webp",
+        "id": "hot-appetizer-item-19",
+        "order": 18,
+        "available": true
+      },
+      {
+        "name": "Al Marsa Combo",
+        "price": 35,
+        "description": "",
+        "image": "/menu-images/al-marsa-combo.webp",
+        "id": "hot-appetizer-item-20",
+        "order": 19,
+        "available": true
+      },
+      {
+        "name": "Shrimp With Cream And Basil",
+        "price": 15.8,
+        "description": "",
+        "image": "/menu-images/shrimp-with-cream-and-basil.webp",
+        "id": "hot-appetizer-item-21",
+        "order": 20,
+        "available": true
+      }
+    ],
+    "order": 3,
+    "cover": ""
+  },
+  {
+    "id": "grills",
+    "name": "Grills",
+    "icon": "♨",
+    "subtitle": "From the grill to your table",
+    "dishes": [
+      {
+        "name": "Tawouk",
+        "price": 19,
+        "description": "",
+        "image": "/menu-images/tawouk.webp",
+        "id": "grills-item-1",
+        "order": 0,
+        "available": true
+      },
+      {
+        "name": "Grilled Beef",
+        "price": 27.6,
+        "description": "",
+        "image": "/menu-images/grilled-beef.webp",
+        "id": "grills-item-2",
+        "order": 1,
+        "available": true
+      },
+      {
+        "name": "Grilled Kafta",
+        "price": 18.2,
+        "description": "",
+        "image": "/menu-images/grilled-kafta.webp",
+        "id": "grills-item-3",
+        "order": 2,
+        "available": true
+      },
+      {
+        "name": "Mix Grills",
+        "price": 27,
+        "description": "",
+        "image": "/menu-images/mix-grills.webp",
+        "id": "grills-item-4",
+        "order": 3,
+        "available": true
+      }
+    ],
+    "order": 4,
+    "cover": ""
+  },
+  {
+    "id": "main-course",
+    "name": "Main Course",
+    "subtitle": "Freshly prepared mains",
+    "dishes": [
+      {
+        "name": "Paella",
+        "price": 42,
+        "description": "Spanish rice with prawns, calamari, fish and shellfish, peppers and onions",
+        "image": "/menu-images/paella.webp",
+        "id": "main-course-item-1",
+        "order": 0,
+        "available": true
+      },
+      {
+        "name": "Roasted Potatoes with Shrimp",
+        "price": 24,
+        "description": "Oven-roasted potatoes with creamy sauce, shrimp and melted mozzarella",
+        "image": "/menu-images/roasted-potatoes-shrimp.webp",
+        "id": "main-course-item-2",
+        "order": 1,
+        "available": true
+      },
+      {
+        "name": "Chili Fish",
+        "price": 33.3,
+        "description": "Grilled boneless seabream fillet with spicy tomato, pepper and onion sauce, roasted nuts and potatoes",
+        "image": "/menu-images/chili-fish.webp",
+        "id": "main-course-item-3",
+        "order": 2,
+        "available": true
+      },
+      {
+        "name": "Lemon Fish",
+        "price": 29.7,
+        "description": "Grilled fish fillet, lemon butter sauce, served with sauteed baby potato and sauteed vegetables",
+        "image": "/menu-images/lemon-fish-compressed.webp",
+        "id": "main-course-item-4",
+        "order": 3,
+        "available": true
+      },
+      {
+        "name": "Grilled Salmon Fillet",
+        "price": 34.1,
+        "description": "Fillet salmon served with halyoun and vegetable rice, orange sauce",
+        "image": "/menu-images/grilled-salmon-fillet-compressed.webp",
+        "id": "main-course-item-5",
+        "order": 4,
+        "available": true
+      },
+      {
+        "name": "Shrimp Caribbean",
+        "price": 34.1,
+        "description": "Marinated shrimps, green onion, paella rice, spicy tomato sauce",
+        "image": "/menu-images/shrimp-caribbean-compressed.webp",
+        "id": "main-course-item-6",
+        "order": 5,
+        "available": true
+      }
+    ],
+    "order": 5,
+    "cover": ""
+  },
+  {
+    "id": "fruits",
+    "name": "Fruits",
+    "subtitle": "Fresh seasonal fruits",
+    "dishes": [
+      {
+        "name": "Seasonal Fruits",
+        "price": 30.3,
+        "description": "Watermelon, melon, mixed fruits",
+        "image": "/menu-images/seasonal-fruits.webp",
+        "id": "fruits-item-1",
+        "order": 0,
+        "available": true
+      }
+    ],
+    "order": 6,
+    "cover": ""
+  },
+  {
+    "id": "catch-of-the-day",
+    "name": "Catch of the Day",
+    "subtitle": "From the sea",
+    "dishes": [
+      {
+        "name": "Lokkos by kg",
+        "price": 72,
+        "description": "",
+        "image": "/menu-images/lokkos-by-kg.webp",
+        "id": "catch-of-the-day-item-1",
+        "order": 0,
+        "available": true
+      },
+      {
+        "name": "Sultan Ibrahim by kg",
+        "price": 72,
+        "description": "",
+        "image": "/menu-images/sultan-ibrahim.webp",
+        "id": "catch-of-the-day-item-2",
+        "order": 1,
+        "available": true
+      },
+      {
+        "name": "Mixed white fish by KG",
+        "price": 48,
+        "description": "",
+        "image": "/menu-images/mixed-white-fish.webp",
+        "id": "catch-of-the-day-item-3",
+        "order": 2,
+        "available": true
+      },
+      {
+        "name": "Ajaj by kg",
+        "price": 40,
+        "description": "",
+        "image": "/menu-images/ajaj.webp",
+        "id": "catch-of-the-day-item-4",
+        "order": 3,
+        "available": true
+      },
+      {
+        "name": "GRILLED SHRIMP JAMBOO",
+        "price": 84,
+        "description": "",
+        "image": "/menu-images/grilled-shrimp-jamboo.webp",
+        "id": "catch-of-the-day-item-5",
+        "order": 4,
+        "available": true
+      }
+    ],
+    "order": 7,
+    "cover": ""
+  }
+]

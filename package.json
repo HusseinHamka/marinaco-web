@@ -1,0 +1,15 @@
+{
+  "name": "marinaco-web",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "install:apps": "npm install --prefix apps/ugarit && npm install --prefix apps/almarsa",
+    "build": "npm run build --prefix apps/ugarit && npm run build --prefix apps/almarsa",
+    "build:render": "npm run install:apps && npm run build",
+    "start": "node gateway.mjs",
+    "test": "npm test --prefix apps/ugarit && node tests/gateway-smoke.test.mjs"
+  }
+}
